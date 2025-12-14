@@ -1,26 +1,26 @@
 class K1s < Formula
   desc "Kubernetes TUI Debugger - One screen to see why your pod is broken"
   homepage "https://github.com/andrebassi/k1s"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/andrebassi/k1s/releases/download/v0.1.7/k1s-darwin-arm64"
-      sha256 "6bcd2d12df8f4b45ea603a1a706f036ea237805631743be528643a966c430b4c"
+      url "https://github.com/andrebassi/k1s/releases/download/v0.1.8/k1s-darwin-arm64"
+      sha256 "8cb4c5f77a4c42209cd724e4eb6589088b0250b4aa363533707a5958f9390702"
     else
-      url "https://github.com/andrebassi/k1s/releases/download/v0.1.7/k1s-darwin-amd64"
-      sha256 "9997ce1b58abe284a7003c6f6164a91d7668c2bfc260775589e055028be941a1"
+      url "https://github.com/andrebassi/k1s/releases/download/v0.1.8/k1s-darwin-amd64"
+      sha256 "66979e74dc49e13a1ba6457d525ebf5240036c277277a0525a474eeab98d1cd1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/andrebassi/k1s/releases/download/v0.1.7/k1s-linux-arm64"
-      sha256 "b9b77c251c8e17df62c02e926d0a3916aab92eb9a07d480175202e5dabfd67ae"
+      url "https://github.com/andrebassi/k1s/releases/download/v0.1.8/k1s-linux-arm64"
+      sha256 "2fcedf9236dc92e363fecc31fc16ec0973fdf7369153af7bec7fcdbb2fb9568d"
     else
-      url "https://github.com/andrebassi/k1s/releases/download/v0.1.7/k1s-linux-amd64"
-      sha256 "4dcf884c866e1ca9239467da4a78e84e4d13d16717e5ba7700326984ece78fcb"
+      url "https://github.com/andrebassi/k1s/releases/download/v0.1.8/k1s-linux-amd64"
+      sha256 "fdc58224619ac9e676964d8a9c053f950b6efc9dbec760cd44731b46b404ccf6"
     end
   end
 
